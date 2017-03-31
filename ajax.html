@@ -3,11 +3,31 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>ajax</title>
+<link rel="stylesheet" type="text/css" href="ajax.css">
 <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="ajax.js"></script>
 </head>
+<!-- use ajax complete a page turning function -->
 <body>
-	<input type="button" value="点击出现信息"/>
-	<div id="box"></div>
+	<div class="pageTurn">
+		<!-- head -->
+		<div class="header">
+			<h1>白夜行</h1>
+		</div>
+		<!-- main part -->
+		<div class="content">
+			<!-- novel content -->
+			<div id="main"></div>
+			<!-- the button to turn page -->
+			<div class="btn">
+				<input type="button" class="last" value="上一页">
+				<input type="button" class="next" value="下一页">
+			</div>
+		</div>
+		<!-- bottom -->
+		<div class="footer">
+			<p>yuabshu@163.com</p>
+		</div>
+	</div>
 </body>
 </html>
