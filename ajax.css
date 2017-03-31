@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding:0;
+}
+.pageTurn{
+	width:700px;
+	height:680px;
+	border:2px solid #786;
+	margin: 0 auto;
+}
+.header{
+	width:700px;
+	height:60px;
+	border-bottom:1px dashed #786;
+}
+.header h1{
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+}
+.content{
+	width:700px;
+	height:540px;
+	border-bottom:1px dashed #786;
+}
+.content #main{
+	width:700px;
+	height:500px;
+	border-bottom:1px dashed #786;
+}
+.content .btn{
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+.footer{
+	width:700px;
+	height:80px;	
+}
+.footer p{
+	text-align: center;
+	height:80px;
+	line-height: 80px;
+}
